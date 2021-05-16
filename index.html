@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-brand"><img src="images/logo.png" width="200px" alt=""></div>
+            <div class="auth">
+                <ul class="auth-list">
+                    <li class="auth-button-one">Login</li>
+                    <li class="auth-button-two active">Create Account</li>
+                </ul>
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="navigation-list" id="myTopnav">
+                <li><a href="" class="nav-link">Our Product</a></li>
+                <li><a href="" class="nav-link">The Process</a></li>
+                <li><a href="" class="nav-link">What is Diamcoin</a></li>
+                <li><a href="" class="nav-link">Our Vault</a></li>
+                <li><a href="" class="nav-link">Why Diamonds</a></li>
+                <li><a href="" class="nav-link">The Platform</a></li>
+                <li><a href="" class="nav-link">Infrastructure</a></li>
+                <li><a href="" class="nav-link">About us</a></li>
+                <li><a href="" class="nav-link">Our Partners</a></li>
+                <li><a href="" class="nav-link">Press</a></li>
+                <li><a href="" class="nav-link">Team</a></li>
+                <li><a href="" class="nav-link">Testimonials</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="slideshow-container" >
+                <div class="hero-wrapper-1 mySlides fade">
+                    <div class="hero">
+                        <div class="hero-text">
+                            <div class="hero-title">
+                                Safe, stable and transparent
+                            </div>
+                            <p class="hero-second-title">The only token 100% backed by real physical diamond.</p>
+                            <p class="hero-small-text">Buy Diamcoin and protect your
+                                funds using the world’s most stable
+                                physical asset</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="hero-wrapper-2 mySlides fade">
+                    <div class="hero-2">
+                        <div class="hero-2-text">"I was immediately intrigued by the power of blockchain
+                            technology and I believe in DiamdeXX vision of providing
+                            more stability to the market which for me is the only
+                            viable solution to the world of blockchain and
+                            extraordinary volatility."
+                        </div>
+                        <div class="hero-2-author">
+                            <div class="hero-2-image"><img src="images/nobels.png" alt=""></div>
+                            <div class="hero-2-name">Sir Christopher Antoniou Pissarides
+                                2010 - Nobel Prize in Economics</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-wrapper-3 mySlides fade">
+                    <div class="hero-3-container">
+                        <div class="hero-3-title">
+                            <div class="hero-3-name">Diamcoin Calculator</div>
+                            <div class="hero-3-text"> Convert your tokens instantly without an existing wallet. </div>
+                        </div>
+                        <div class="hero-3-convert">
+                            <div class="hero-3-convert-title">1DIAM = 1USD</div>
+                            <div class="hero-3-select">
+                                <p>Select coin:</p>
+                                <ul>
+                                    <li><img src="images/Bitcoin.png" alt=""></li>
+                                    <li><img src="images/2000px-Ethereum_logo_2014.png" alt=""></li>
+                                    <li><img src="images/tether-usdt-logo-FA55C7F397-seeklogo.png" alt=""></li>
+                                    <li><img src="images/0_uyl3xual0VFA66CP.png" alt=""></li>
+                                    <li><img src="images/lzDGtciT_400x400.png" alt=""></li>
+                                    <li><img src="images/Cjdowner-Cryptocurrency-Flat-Binance-Coin-BNB.png" alt=""></li>
+                                    <li><img src="images/Cjdowner-Cryptocurrency-Flat-Binance-Coin-BNB.png" alt=""></li>
+
+                                </ul>
+                            </div>
+                            <div class="input-wrapper">
+
+
+                                <div class="hero-3-input" data-required="0.0">
+                                    <input type="text" class="input-data" placeholder="  Enter Amount">
+                                </div>
+                                <div class="hero-3-input" data-required="0.0">
+                                    <input type="text" class="input-data" placeholder="  Value in DIAM">
+                                </div>
+                            </div>
+                            <div class="hero-3-button"><a href="">Convert Tokens Instantly</a></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div style='text-align: center;' class="dot-container">
+                    <span class="dot" onclick='currentSlide(1)'></span>
+                    <span class="dot" onclick='currentSlide(2)'></span>
+                    <span class="dot" onclick='currentSlide(3)'></span>
+                    
+                </div>
+              </div>
+            
+
+        </div>
+        
+    </header>
+    <main>
+        <section class="form">
+            <div class="form-wrapper">
+                <div class="form-stats">
+                    <div class="form-stats-first">
+                        <p>TOTAL SUPPLY OF DIAM</p>
+                        <div class="form-stats-info">150,000,000</div>
+                    </div>
+                    <div class="form-stats-first">
+                        <p>VAULT'S VALUE</p>
+                        <div class="form-stats-info">150,000,000</div>
+                    </div>
+                </div>
+                <div class="form-information-wrapper">
+                    <form action="/action_page.php" method="get" class="form-information">
+                        <div class="form-name">
+                            <label for="fname"></label>
+                            <input type="text" id="fname" name="fname" placeholder="Name*">
+                            <label for="lname"> </label>
+                            <input type="text" id="lname" name="lname" placeholder="Surname*">
+                        </div>
+                        <div class="form-company">
+                            <label for="lname"> </label>
+                            <input type="text" id="lname" name="lname" placeholder="Company">
+                            <label for="lname"> </label>
+                            <input type="text" id="lname" name="lname" placeholder="Email address*">
+                        </div>
+                        <div class="form-phone">
+                            <label for="lname"> </label>
+                            <input type="text" id="lname" name="lname" placeholder="Phone number*">
+
+                            <input type="submit" value="Send" class="button">
+                            <p class="form-required">*Required</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+         
+        <section class="our-products">
+            <div class="products-title">
+                <h1>
+                    Our Products
+                </h1>
+            </div>
+            <div class="cards-products">
+                <article class="card">
+                    <img src="images/diamond.png" alt="">
+                    <div class="text">
+                        <h3>DiamCoin</h3>
+                        <p>A stablecoin 100% backed by physical, audited diamonds, listed on top exchanges and serving
+                            as a gateway between them. </p>
+
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images/wallet.png" alt="">
+                    <div class="text">
+                        <h3>Wallet</h3>
+                        <p> The DiamCoin wallet, where users can exchange and purchase DiamCoin using cryptocurrencies.
+                        </p>
+
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images/Group.png" alt="">
+                    <div class="text">
+                        <h3>DiamDrop</h3>
+                        <p>Our diamantaire platform, where users will be able to redeem their DiamCoin in exchange for
+                            physical diamonds and enjoy manufacturer price. </p>
+
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="process">
+            <div class="process-title">
+                <h1>
+                    The Process
+                </h1>
+                <p>6 easy steps to buy and to use Diamcoin:</p>
+            </div>
+            <div class="process-steps">
+                <ul class="process-steps-list">
+                    <li class="points"> 1 <span class="text">Open an account</span></li>
+                    <li> 2 <span class="text">Select your coin</span>
+                        <div class="process-icons-one">
+                            <span><div><img src="images/Bitcoin.png" alt=""></div> BTC </span>
+                            <span><div><img src="images/2000px-Ethereum_logo_2014.png" alt=""></div> ETH </span>
+                            <span><div><img src="images/tether-usdt-logo-FA55C7F397-seeklogo.png" alt=""></div> USDT </span>
+                        </div>
+                        <div class="process-icons-two">
+                            <span><div><img src="images/0_uyl3xual0VFA66CP.png" alt=""></div> TUSD </span>
+                            <span><div><img src="images/usdc-icon-86074d9d49.png" alt=""></div> USDC </span>
+                            <span><div><img src="images/paxos_standard.png" alt=""></div> PAX </span>
+                        </div>
+                        <div class="process-icons-three">
+                            <span><div><img src="images/Cjdowner-Cryptocurrency-Flat-Binance-Coin-BNB.png" alt=""></div>BNB</span>
+                        </div>
+                    </li>
+                    <li> 3 <span class="text">Convert to <br> DiamCoin(DIAM)</span></li>
+                    <li> 4 <span class="text">Vault</span><span class="more-text">We'll add the equivalent of your purchase's worth of physical diamonds to one of our audited vaults.</span></li>
+                    <li> 5 <span class="text">Stability</span><span class="more-text-stability">Avoid volatility and keep your investment secure.</span></li>
+                    <li> 6 <span class="text">Cash out</span>
+                        <span class="img-last"><img src="images/diamdrop.png" alt=""></span>
+                        <span class="more-text-last"><p>• Buy physical diamonds 
+                            at a discount price from 
+                            a manufacturer.</p> 
+                            <p> 
+                            • Use DiamCoin to trade in listed exchanges.</p>
+                            </span>
+                    </li>
+                </ul>
+
+            </div>
+             
+             
+        </section>
+        <section class="screen">
+            <div class="screen-image">
+                <img src="images/OKR0RJ1.png" alt="">
+            </div>
+            <div class="screen-buttons"><a class="screen-button" href="">Create Account</a> 
+            <div class="whitelist">Whitelist</div> </div>
+        </section>
+        <section class="image">
+            <div class="title">
+                <h1>What is Diamcoin</h1>
+                <p>The new era in crypto market technology</p>
+            </div>
+            <div class="image-diamcoin">
+                <img src="images/Screen Shot 2019-02-19 at 09.23.png" alt="">
+            </div>
+
+        </section>
+        <section class="our-vault">
+            <div class="our-vault-title">
+                <h1>
+                    Our Vault
+                </h1>
+            </div>
+
+            <div class="our-vault-wrapper">
+                <div class="our-vault-text">
+                    <p>
+                        We store our diamonds in <a href=""> 5 Tax-Free Zones, where they’re audited </a> by IDEX®, the
+                        leading broker in
+                        diamonds. The DiamDEXX platform then connects them to <a href="">7,000 different diamond
+                            manufacturers</a> offering
+                        <a href=""> 800,000 fully-certified stones.</a>
+                    </p>
+                    <p>
+                        Through this ecosystem, we facilitate a system where diamonds are used as a collateral to <a
+                            href=""> make
+                            DiamCoin perfectly liquid.</a> Our users then become free from external, systematic, or
+                        internal
+                        restrictions, allowing them to <a href="">access financial freedom</a> with ease.
+                    </p>
+
+                </div>
+                <div class="our-vault-map"><img src="images/Free-trade-zone 2.png" alt="">
+
+                    <div class="map-cities">
+                        <a href="" class="new-york">New York</a>
+                        <a href="" class="geneva">Geneva</a>
+                        <a href="" class="tel-aviv">Tel Aviv</a>
+                        <a href="" class="antwerp">Antwerp</a>
+                        <a href="" class="dubai">Dubai</a>
+                        <a href="" class="mumbai">Mumbai</a>
+                        <a href="" class="hong-kong">Hong Kong</a>
+                        <a href="" class="singapore">Singapore</a>
+                        <a href="" class="gaborone">Gaborone</a>
+                    </div>
+                </div>
+            </div>
+            <div class="central-text">
+                <a href="">One DiamCoin will always equal 1 US Dollar</a> through our dynamic smart-vault system, and
+                users will always be able to convert their DIAM back to USD. DiamCoin will also be used as a payment
+                method both on our platform and our partners’, while accepting no intermediaries. <a href=""> DiamCoin
+                    will always be transacted from user to user only!</a>
+            </div>
+            <p class="central-text-link"><a href="">Proof of funds</a></p>
+        </section>
+        <section class="price-stability">
+            <div class="price-stability-wrapper">
+                <div class="price-stability-title">
+                    <h2>Price Stability in a Nutshell</h2>
+                </div>
+                <div class="price-stability-text">
+                     Thanks to our smart-vault system, we are able to keep <a href="">  1 DIAM at $1. </a> <br>
+                        <p>   To do it, we’ve designed a smart-contract that automatically adjusts the number of diamonds in our vaults 
+                        in the following situations:
+                    </p>
+                    <p>   
+                       <a href=""> -The market price of diamonds goes up, or</a><br> 
+                         <a href=""> -The market price of diamonds goes down.</a>
+                    </p>
+                    <p> 
+
+                        When diamonds’ price goes up, we will adjust our vaults by reducing the number of diamonds on them, 
+                        and/or issuing more tokens. 
+                        
+                    </p>
+                    <p>   
+                        And, when if the price decreases, we will burn tokens and/or buy new diamonds to ensure our currency’s stability.
+                    </p>
+                    </div>
+            </div>
+            <div class="price-stability-image">
+                <img src="images/Diamcoin Vault.png"  alt="">
+            </div>
+        </section>
+        <section class="why-diamonds">
+            <div class="diamonds-wrapper">
+                <div class="diamonds-text">
+                    <div class="diamonds-title">
+                        <h1>Why Diamonds</h1>
+                    </div>
+                    <div class="diamonds-more-text">
+                        Diamonds have proven their security aspect for 
+investment purposes. They offer protection against credit risks of centralized financial institutions and banks,
+ currency fluctuations, inflation and socio-economic variables. 
+
+                    </div>
+                </div>
+                <div class="diamonds-image">
+                    <img src="images/diamond-hd-png-diamond-png-image-1233.png" alt="">
+                </div>
+            </div>
+            <div class="diamonds-links">
+                <ul>
+                    <li><div><img src="images/observedLongterm.png" alt=""></div>
+                    <a href="">OBSERVED LONGTERM PROFITABILITY</a></li>
+                    <li><div><img src="images/crisis.png" alt=""></div>
+                        <a href="">CRISIS RESISTANT</a></li>
+                        <li><div><img src="images/brand.png" alt=""></div>
+                            <a href="">BRAND</a></li>
+                            <li><div><img src="images/certified.png" alt=""></div>
+                                <a href="">CERTIFIED DIAMOND AND SECURITY</a></li>
+                                <li><div><img src="images/liquidity.png" alt=""></div>
+                                    <a href="">LIQUIDITY ON DEMAND</a></li>
+                </ul>
+            </div>
+            <div class="diamonds-index"><a href="">View Global Index</a></div>
+        </section>
+        <section class="platform">
+            <div class="platform-wrapper">
+                <div class="platform-image">
+                    <img src="images/iphone-mockup-okorkmaz 2.png" alt="">
+                </div>
+                <div class="platform-content">
+                    <p class="intro">STATE OF THE ART</p>
+                    <div><h1>The Platform</h1></div>
+                    <div class="platform-text">Our platform is 100% dedicated to providing safe, and easy accessibility to Diamcoin to all our users, and offers any individual the ability to purchase Diamcoin at any time. Our user friendly interface will allow you to keep your Diamcoin on your auto-created web wallet or if you prefer, you can use your own already existing ERC-20 wallet.
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infrastructure">
+            <div class="infrastructure-title">
+                <h1>Infrastructure</h1>
+            </div>
+            <div class="infra-wrapper">
+                <div class="infra-list-one">
+                    <div class="list-one"><img src="images/diamondtaire.png" alt=""></div>
+                    <a href="">DIAMANTAIRE</a>
+                </div>
+                <div class="arrow-one">
+                    <img src="images/arrowleft.png" alt="">
+                </div>
+                <div class="infra-list-two">
+                    <a href="">STONE LISTING</a>
+                </div>
+                <div class="arrow-one">
+                    <img src="images/arrowleft.png" alt="">
+                </div>
+                <div class="infra-list-three">
+                    <div class="infra-diamcoin"><img src="images/diamcoin.png" alt=""></div>
+                    <a href="">DIAMCOIN</a>
+                </div>
+            </div>
+            <div class="infra-wrapper-second">
+                <div class="infra-list-four">
+                    <div><img src="images/money.png" alt=""></div>
+                    <a href="">CASH OUT BY <br> EXCHANGE</a>
+                </div>
+                <div class="arrow-two">
+                    <img src="images/arrowright.png" alt="">
+                </div>
+                <div class="infra-list-five">
+                    <div class="infra-image">
+                        <img src="images/hello.png" alt="">
+                    </div>
+                    <div class="infra-list-five-title">
+                        PLATFORM
+                    </div>
+                    <div class="buy-with">
+                        <p>Buy with:</p>
+                        <ul>
+                            <li><img src="images/Bitcoin.png" alt=""></li>
+                            <li><img src="images/2000px-Ethereum_logo_2014.png" alt=""></li>
+                            <li><img src="images/tether-usdt-logo-FA55C7F397-seeklogo.png" alt=""></li>
+                            <li><img src="images/0_uyl3xual0VFA66CP.png" alt=""></li>
+                            <li><img src="images/usdc-icon-86074d9d49.png" alt=""></li>
+                            <li><img src="images/lzDGtciT_400x400.png" alt=""></li>
+                            <li><img src="images/Cjdowner-Cryptocurrency-Flat-Binance-Coin-BNB.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="cash-out">
+                        <p>Cash out with physical</p>
+                        <img src="images/diamdrop.png" alt="">
+                    </div>
+                </div>
+                <div class="arrow-two">
+                    <img src="images/arrowright.png" alt="">
+                </div>
+                <div class="infra-list-six">
+                    <div class="title"> AUDIT</div>
+                    <p>
+
+                        <a href="">Stone's value</a>
+                    </p>
+                    <p>
+
+                        <a href="">FIAT value</a>
+                    </p>
+                    <p>
+
+                        <a href="">Crypto value</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-wrapper">
+                <div class="about-title">
+                    <h1>About us</h1>
+                </div>
+                <div class="about-content">
+              <p>      Established in 2010, Hello Group’s headquarters were located in
+ Cyprus. Hello Group started as provider of premium custom-made 
+white label front & back end solutions. Our partners benefited from 
+comprehensive technological solutions, delivered in few weeks and
+ fully supported by our international team of experts.
+ Hello Diamonds was created few years later, in 2015, with the idea of 
+taking the existing success of the diamond industry and adapting it to
+ our expertise, therefore raising its efficiency and overall accessibility.
+ DiamDEXX, the blockchain solution of Hello Diamonds, has now its headquarter in Canada, and operational
+ offices in Limassol, offices in Antwerp and New York.</p> 
+
+ <p>  As software and CRM experts, Hello Group has created Hello Diamonds with the idea of sourcing the diamond industry’s best precious stones into a comprehensive and user-friendly web platform. This gives access to over 800,000 live diamonds in one single portal, allowing users to easily navigate through the extensive list of precious stones and filtering them by a multitude of factors including cut, carat, colour, and value.</p> 
+
+    <p>  The Hello Diamonds team created a platform that is accessible to all users, and is easily navigable, offering any individual the ability to purchase and resell diamonds in just a few seconds. Certificates of authenticity can be downloaded and physically delivered, and you can keep track of all your transactions — all in one platform.</p> 
+
+        <p> Then the idea of blockchain and security started to become more and more important and the idea behind Hello Diamonds became really simple: rather than investing in highly volatile assets such as stocks, bonds or commodities, or in highly volatile cryptocurrencies or depreciating fiat-backed crypto, some investors are more likely to trust the long lasting, trustworthy value of diamonds. After months of development, we have come with DiamCoin, the first 100% token backed by physical diamonds.</p> 
+
+
+
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners-wrapper">
+                <div class="partners-title">
+                    <h1>Our Partners</h1>
+                </div>
+                <div class="partners-text">Our partners are our most prized asset. We are proud of the relationships we have built with them. </div>
+                <div class="partners-logo">
+                    <ul>
+                        <li><img src="images/Screen Shot 2019-02-06 at 22.08.png" alt=""></li>
+                        <li><img src="images/wallpaper.png" alt=""></li>
+                        <li><img src="images/dynamic-works-logo-web-design.png" alt=""></li>
+                        <li><img src="images/Microsoft-Logo-PNG.png" alt=""></li>
+                        <li><img src="images/logo-icon.png" alt=""></li>
+                        <li><img src="images/logo-BELL-sprite copy.png" alt=""></li>
+                        <li><img src="images/diamdrop.png" alt=""></li>
+                        <li><img src="images/COMIT.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section class="press">
+            <div class="press-wrapper">
+                <h1>As seen in the press</h1>
+                <div class="press-cards">
+                    <article>
+                        <div class="press-logo first-logo">
+                            <img src="images/bloxlivetv.png" alt="">
+                        </div>
+                        <div class="press-text">
+                            «DiamCoin, a stablecoin that protects you
+from crypto volatility»
+                        </div>
+                        <div class="press-link"> <a href="">  Read the full article</a></div>
+                    </article>
+                    <article>
+                        <div class="press-logo">
+                            <img src="images/blockchain-trailblazers-light-250.png" alt="">
+                        </div>
+                        <div class="press-text">
+                            « Hello Group announces blockchain
+powered diamond platform, backed by
+ Economics Nobel Prize winner »
+                        </div>
+                        <div class="press-link"> <a href="">  Read the full article</a></div>
+                    </article>
+                    <article>
+                        <div class="press-logo transparent-logo">
+                            <img src="images/20180510104135-ent-eu-logo-wht.png" alt="">
+                        </div>
+                        <div class="press-text">
+                            « Europe Is a Leader in 
+                            Blockchain Adoption »
+                        </div>
+                        <div class="press-link"> <a href="">  Read the full article</a></div>
+                    </article>
+                </div>
+                <div class="press-request">
+                    <a href="#">Request Press Kit</a>
+                </div>
+            </div>
+        </section>
+        <section class="our-team">
+            <div class="team-wrapper"> 
+            <div class="team-title">
+                <h1>Our Team</h1>
+            </div>
+            <p>Diamonds are precious, our team members are too!
+            </p>
+            <div class="team-cards">
+                <div class="card">
+                    <div class="card-image"><img src="images/Screen Shot 2019-02-07 at 11.57.png" alt=""></div>
+                    <div class="card-name">Jeremy Dahan</div>
+                    <div class="card-position">Founder&CEO</div>
+                    <div class="card-hash">#diamonds passionate & successful business achievement specialist </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/2.png" alt=""></div>
+                    <div class="card-name">Sir Christopher Pissarides</div>
+                    <div class="card-position">Economic Expert</div>
+                    <div class="card-hash">#nobel prize in economics </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/3.png" alt=""></div>
+                    <div class="card-name">Michael Constantinides</div>
+                    <div class="card-position">Economic Advisor</div>
+                    <div class="card-hash">#former permanent secretary of ministries </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/4.png" alt=""></div>
+                    <div class="card-name">Zohar Shamir</div>
+                    <div class="card-position">Strategy & finance</div>
+                    <div class="card-hash">#strategy and finance specialist </div>
+                </div>
+            </div>
+            <div class="team-cards">
+                <div class="card">
+                    <div class="card-image"><img src="images/5.png" alt=""></div>
+                    <div class="card-name">Sidney Ifergan</div>
+                    <div class="card-position">Marketing and PR <br> ManagerConsultant</div>
+                    <div class="card-hash">#marketing expert </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/6.png" alt=""></div>
+                    <div class="card-name">George Georgiou</div>
+                    <div class="card-position">IT Specialist</div>
+                    <div class="card-hash">#it solution & platform provider </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/7.png" alt=""></div>
+                    <div class="card-name">Mark Sapolinski</div>
+                    <div class="card-position">Business Developer</div>
+                    <div class="card-hash">#early bitcoin adopter </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/8.png" alt=""></div>
+                    <div class="card-name">Angelos Gregoriou</div>
+                    <div class="card-position">IT Specialist</div>
+                    <div class="card-hash">#platform provider & crm expert </div>
+                </div>
+            </div>
+            <div class="team-cards">
+                <div class="card">
+                    <div class="card-image"><img src="images/9.png" alt=""></div>
+                    <div class="card-name">Patrick Makedonas</div>
+                    <div class="card-position">Ecosystem Developer</div>
+                    <div class="card-hash">#blockchain advocate </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/lady.png" alt=""></div>
+                    <div class="card-name">Pauline Guhmann</div>
+                    <div class="card-position">Project Manager</div>
+                    <div class="card-hash">#crypto and innovation enthusiast </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/11.png" alt=""></div>
+                    <div class="card-name">Carlos Cano</div>
+                    <div class="card-position">Social Media and communication manager</div>
+                    <div class="card-hash">#blockchain communication strategist </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/12.png" alt=""></div>
+                    <div class="card-name">Jean Fages</div>
+                    <div class="card-position">Smart contract developer</div>
+                    <div class="card-hash">#smart contract expert </div>
+                </div>
+            </div>
+            <div class="team-cards">
+                <div class="card">
+
+                </div>
+                <div class="card">
+                    <div class="card-image"> <img src="images/13.png" alt=""></div>
+                    <div class="card-name">Emilianos Amon</div>
+                    <div class="card-position">Marketing & Communication <br> Consultant</div>
+                    <div class="card-hash"># crypto and innovation enthusiast</div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="images/14.png" alt=""></div>
+                    <div class="card-name">Hermann Josovah <br> Avotrimangarinosy</div>
+                    <div class="card-position">Developer</div>
+                    <div class="card-hash">#IT expert </div>
+                </div>
+                <div class="card">
+                    
+                </div>
+          
+            </div>
+        </div>
+        </section>
+
+    </main>
+    <footer> 
+    <div class="logo">
+        <div class="logo-brand"><img src="images/logo.png" width="200px" alt=""></div>
+        <div class="footer-links">
+            <ul class="footer-links-list">
+                <li><img src="images/Telegram_logo.png" alt=""></li>
+                <li><img src="images/twitter.png" alt=""></li>
+                <li><img src="images/linked-in-logo.png" alt=""></li>
+                <li><img src="images/F_icon_reversed.png" alt=""></li>
+                <li><img src="images/bitcoin-footer.png" alt=""></li>
+                <li><img src="images/m.png" alt=""></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <div>&copy Copyright 2016 - DiamDEXX</div>
+        <div>Email:Contact@Hello-Diamonds.Com</div>
+    </div>
+</footer>
+<script src="script.js">
+ 
+</script>
+
+</body>
+
+
+</html>
